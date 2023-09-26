@@ -1,0 +1,1 @@
+Para cada projeto, temos que fazer o mvn install para colocar o projecto no repo local do Maven e os outros, dentro das dependencies, conseguirem encontrar.
