@@ -5,12 +5,25 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class WeatherStarter {
 
       //todo: should generalize for a city passed as argument
       private static final int CITY_ID_AVEIRO = 1010500;
+
+      private static final Logger logger = LogManager.getLogger(WeatherStarter.class);
       
       public static void  main(String[] args ) {
+
+            System.out.println( "Hello, user!" );
+            logger.trace("We've just greeted the user!");
+            logger.debug("We've just greeted the user!");
+            logger.info("We've just greeted the user!");
+            logger.warn("We've just greeted the user!");
+            logger.error("We've just greeted the user!");
+            logger.fatal("We've just greeted the user!");
 
             // get a retrofit instance, loaded with the GSon lib to convert JSON into objects
             Retrofit retrofit = new Retrofit.Builder()
