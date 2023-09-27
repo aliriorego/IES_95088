@@ -1,5 +1,9 @@
 LAB 1_3
 
+ATENÇÃO!
+Não guardei aqui o projeto e acabei por atualizar o projeto que está dentro do Lab1_2 com os logs.
+
+
 Para sincronziar a pasta local com o repositório usei a extensão Source Control do Visual Studio Code porque já estou habituado a usar dessa forma
 Criei a estrutura de pastas e liguei o local com o repositório com os comandos
 
