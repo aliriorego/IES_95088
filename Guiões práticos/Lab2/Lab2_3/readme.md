@@ -20,3 +20,22 @@ ___
 - depois `java -jar target\spring.demo-0.0.1-SNAPSHOT.jar`
 
 - a app corre e no endereço `http://localhost:8080/` aparece o white label error como esperado
+
+___
+
+na alínea b) segui o artigo que está no guião para criar uma nova app (gs-serving-web-content-main)
+
+- download do zip que já traz as dependências necessárias: thymeleaf, spring web e boot devtools
+
+- Criei o controller que estava lá
+- Criei o greeting.html
+- Criei a home page(index.html)
+
+- modifiquei o application.properties para alterar a porta para 8081
+
+- correr o `mvn package`
+- correr `java -jar target/serving-web-content-initial-0.0.1-SNAPSHOT.jar`
+
+- entrar no endereço `http://localhost:8081/`
+
+- a partir daqui não consegui fazer o testes que estão no artigo porque me estava sempre a dar o erro white label
