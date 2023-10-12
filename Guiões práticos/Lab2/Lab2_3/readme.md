@@ -36,6 +36,4 @@ na alínea b) segui o artigo que está no guião para criar uma nova app (gs-ser
 - correr o `mvn package`
 - correr `java -jar target/serving-web-content-initial-0.0.1-SNAPSHOT.jar`
 
-- entrar no endereço `http://localhost:8081/`
-
-- a partir daqui não consegui fazer o testes que estão no artigo porque me estava sempre a dar o erro white label
+- entrar no endereço `http://localhost:8081/` e aparece a página em branco com a mensagem "Hello, World!"
